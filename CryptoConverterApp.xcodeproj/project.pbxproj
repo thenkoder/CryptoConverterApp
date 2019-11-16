@@ -15,6 +15,7 @@
 		30D27567237FA22B006AD3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D27566237FA22B006AD3C7 /* Assets.xcassets */; };
 		30D2756A237FA22B006AD3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D27568237FA22B006AD3C7 /* LaunchScreen.storyboard */; };
 		30D27572237FA799006AD3C7 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D27571237FA799006AD3C7 /* Quote.swift */; };
+		432F53C0237FD3CB0004CFB2 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432F53BF237FD3CB0004CFB2 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		30D27569237FA22B006AD3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30D2756B237FA22B006AD3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30D27571237FA799006AD3C7 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		432F53BF237FD3CB0004CFB2 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		54596777AD3B300A315DBE9F /* Pods-CryptoConverterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoConverterApp.debug.xcconfig"; path = "Target Support Files/Pods-CryptoConverterApp/Pods-CryptoConverterApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AB1DD6D754911B357C9106BA /* Pods-CryptoConverterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoConverterApp.release.xcconfig"; path = "Target Support Files/Pods-CryptoConverterApp/Pods-CryptoConverterApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +70,7 @@
 				30D2755D237FA228006AD3C7 /* AppDelegate.swift */,
 				30D2755F237FA228006AD3C7 /* SceneDelegate.swift */,
 				30D27561237FA228006AD3C7 /* ViewController.swift */,
+				432F53BF237FD3CB0004CFB2 /* MainTabBarController.swift */,
 				30D27571237FA799006AD3C7 /* Quote.swift */,
 				30D27563237FA228006AD3C7 /* Main.storyboard */,
 				30D27566237FA22B006AD3C7 /* Assets.xcassets */,
@@ -193,6 +196,7 @@
 			files = (
 				30D27572237FA799006AD3C7 /* Quote.swift in Sources */,
 				30D27562237FA228006AD3C7 /* ViewController.swift in Sources */,
+				432F53C0237FD3CB0004CFB2 /* MainTabBarController.swift in Sources */,
 				30D2755E237FA228006AD3C7 /* AppDelegate.swift in Sources */,
 				30D27560237FA228006AD3C7 /* SceneDelegate.swift in Sources */,
 			);
