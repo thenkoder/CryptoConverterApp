@@ -12,6 +12,7 @@ class MainTabBarController: UITabBarController {
   override func viewDidLoad() {
     super.viewDidLoad()
     viewControllers = [
+      generateViewController(rootViewController: SeachViewController(), image: "magnifyingglass", title: "Search"),
       generateViewController(rootViewController: ViewController(), image: "arrow.2.circlepath.circle", title: "Convert")
     ]
   }
