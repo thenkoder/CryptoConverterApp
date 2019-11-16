@@ -35,7 +35,7 @@ class ViewController: UIViewController {
             do {
                 let object = try decoder.decode([Quote].self, from: data)
                 self.quotes = object
-                print(self.quotes)
+//                print(self.quotes)
                 
                 //            self.tableView.reloadData()
             } catch let jsonError {
