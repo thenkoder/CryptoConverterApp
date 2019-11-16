@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9B9779DCD9E425C4E68E17 /* libPods-CryptoConverterApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1BF8DC65015EC6C1B00F68 /* libPods-CryptoConverterApp.a */; };
 		30D2755E237FA228006AD3C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2755D237FA228006AD3C7 /* AppDelegate.swift */; };
 		30D27560237FA228006AD3C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D2755F237FA228006AD3C7 /* SceneDelegate.swift */; };
 		30D27562237FA228006AD3C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D27561237FA228006AD3C7 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B1BF8DC65015EC6C1B00F68 /* libPods-CryptoConverterApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoConverterApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D2755A237FA228006AD3C7 /* CryptoConverterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoConverterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D2755D237FA228006AD3C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30D2755F237FA228006AD3C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		30D27566237FA22B006AD3C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D27569237FA22B006AD3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30D2756B237FA22B006AD3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54596777AD3B300A315DBE9F /* Pods-CryptoConverterApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoConverterApp.debug.xcconfig"; path = "Target Support Files/Pods-CryptoConverterApp/Pods-CryptoConverterApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AB1DD6D754911B357C9106BA /* Pods-CryptoConverterApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoConverterApp.release.xcconfig"; path = "Target Support Files/Pods-CryptoConverterApp/Pods-CryptoConverterApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9B9779DCD9E425C4E68E17 /* libPods-CryptoConverterApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				30D2755C237FA228006AD3C7 /* CryptoConverterApp */,
 				30D2755B237FA228006AD3C7 /* Products */,
+				5C6626C40121917B27457FD0 /* Pods */,
+				BB639079331FF2EFB973D83A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = CryptoConverterApp;
 			sourceTree = "<group>";
 		};
+		5C6626C40121917B27457FD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54596777AD3B300A315DBE9F /* Pods-CryptoConverterApp.debug.xcconfig */,
+				AB1DD6D754911B357C9106BA /* Pods-CryptoConverterApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB639079331FF2EFB973D83A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B1BF8DC65015EC6C1B00F68 /* libPods-CryptoConverterApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30D2756E237FA22B006AD3C7 /* Build configuration list for PBXNativeTarget "CryptoConverterApp" */;
 			buildPhases = (
+				E608B5B791954601D80B4CFB /* [CP] Check Pods Manifest.lock */,
 				30D27556237FA228006AD3C7 /* Sources */,
 				30D27557237FA228006AD3C7 /* Frameworks */,
 				30D27558237FA228006AD3C7 /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E608B5B791954601D80B4CFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoConverterApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		30D27556237FA228006AD3C7 /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		30D2756F237FA22B006AD3C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54596777AD3B300A315DBE9F /* Pods-CryptoConverterApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +352,7 @@
 		};
 		30D27570237FA22B006AD3C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1DD6D754911B357C9106BA /* Pods-CryptoConverterApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
